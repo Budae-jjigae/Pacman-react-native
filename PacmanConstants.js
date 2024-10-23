@@ -162,16 +162,6 @@ export const WALLS = [
      {"line": [10.5, 9.5]}]
 ];
 
-// 객체 복사 함수 (ES6의 스프레드 연산자를 사용하여 대체 가능)
-// Object.prototype.clone = function () {
-//     const newObj = this instanceof Array ? [] : {};
-//     for (const i in this) {
-//         if (i !== 'clone') {
-//             newObj[i] = this[i] && typeof this[i] === 'object' ? this[i].clone() : this[i];
-//         }
-//     }
-//     return newObj;
-// };
 
 // 또는 최신 JavaScript에서는 다음과 같이 사용 가능:
 export function clone(obj) {
